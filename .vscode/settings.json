@@ -1,0 +1,40 @@
+{
+  // editor
+  "editor.wordWrap": "on",
+  "editor.fontSize": 18,
+  "editor.lineheight": 30,
+  "editor.tabsize": 2,
+  "editor.bracketpaircolorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterdelay",
+
+  // explorer
+  "explorer.compactFolders": false,
+
+  // workbench
+  "workbench.editor.enablepreview": false,
+  "workbench.icontheme": "material-icon-theme",
+  "workbench.colorTheme": "Omni",
+
+  //prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
+  "prettier.singlequote": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+
+  // terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "Source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultprofile.windows": "Git Bash",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
