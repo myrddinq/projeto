@@ -9,9 +9,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // se tiver light mode, add img teste
     img.setAttribute("src", "./assets/sukuna-2.jpg")
-    alt.setattribute("src, Sukuna no Fushiguro")
+    img.setAttribute("alt", "Sukuna no Fushiguro")
   } else {
     // se tiver sem light, manter a atual
     img.setAttribute("src", "./assets/sukuna-1.jpg")
+    img.setAttribute("alt", "Sukuna no Itadori")
   }
 }
